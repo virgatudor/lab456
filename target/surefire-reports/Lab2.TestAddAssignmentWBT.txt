@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: Lab2.TestAddAssignmentWBT
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.123 s <<< FAILURE! - in Lab2.TestAddAssignmentWBT
+testAddAssignmentValidatorStartLine(Lab2.TestAddAssignmentWBT)  Time elapsed: 0.014 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<[Data de primire invalida! ]
+> but was:<[Entitatea nu este valida! 
+
+Entitatea nu este valida! 
+]
+>
+	at Lab2.TestAddAssignmentWBT.testAddAssignmentValidatorStartLine(TestAddAssignmentWBT.java:255)
+
+testAddAssignmentInvalid(Lab2.TestAddAssignmentWBT)  Time elapsed: 0.013 s  <<< FAILURE!
+java.lang.AssertionError
+	at Lab2.TestAddAssignmentWBT.testAddAssignmentInvalid(TestAddAssignmentWBT.java:64)
+
+testAddAssignmentServiceDuplicate(Lab2.TestAddAssignmentWBT)  Time elapsed: 0.008 s  <<< FAILURE!
+org.junit.ComparisonFailure: 
+expected:<[Duplicate ID! 
+]> but was:<[]>
+	at Lab2.TestAddAssignmentWBT.testAddAssignmentServiceDuplicate(TestAddAssignmentWBT.java:107)
+

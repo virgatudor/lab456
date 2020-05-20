@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: Lab2.AppTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.378 s <<< FAILURE! - in Lab2.AppTest
+tc6AddStudentGroup110Invalid(Lab2.AppTest)  Time elapsed: 0.193 s  <<< FAILURE!
+java.lang.AssertionError
+	at Lab2.AppTest.tc6AddStudentGroup110Invalid(AppTest.java:113)
+
+tc7AddStudentGroup938Invalid(Lab2.AppTest)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError
+	at Lab2.AppTest.tc7AddStudentGroup938Invalid(AppTest.java:121)
+
+tc5AddStudentNameEmpty(Lab2.AppTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError
+	at Lab2.AppTest.tc5AddStudentNameEmpty(AppTest.java:104)
+
+tc3AddStudentIdEmpty(Lab2.AppTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError
+	at Lab2.AppTest.tc3AddStudentIdEmpty(AppTest.java:88)
+
+tc4AddStudentNameNull(Lab2.AppTest)  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.AssertionError
+	at Lab2.AppTest.tc4AddStudentNameNull(AppTest.java:96)
+
+tc2AddStudentIdNull(Lab2.AppTest)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError
+	at Lab2.AppTest.tc2AddStudentIdNull(AppTest.java:80)
+
